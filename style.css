@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@500&display=swap');
+
+body {
+    max-width:100%;
+    margin: 0px;
+    background-color: rgb(79, 82, 85);
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Nav Bar */
+/* a {
+    text-decoration: solid;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 60px;
+    padding: 0px 350px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(5, 247, 5);
+    border-bottom-width: 1px;
+}
+
+nav a {
+    color: rgb(101, 102, 101);
+    padding: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    margin:0px 17px
+}
+
+.logo {
+    height: 17px;
+    padding: 20px;
+}
+
+#razer {
+    height: 40px;
+    padding: 10px 
+}
+/* End of Navbar */
+/* Header */
+
+header {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 13px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+/* end of header */
+/* handheld */
+
+.onehundred {
+    width: 100%;
+}
+
+.psp {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 7%;
+    bottom: 7%;
+    width: 100%;
+}
+
+.header {
+    text-decoration: none;
+    color: white;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.subhead {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.lmb {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+}
+
+#arrow {
+    font-size: 25px;
+    color: rgb(9, 235, 9);
+    margin-left: -50px;
+    text-decoration: none;
+}
+/* end of handheld */
+/* kitsune */
+
+/* end of kitsune */
+/* school */
+
+/* end of school */
+/* 6box */
+
+.imggal img {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.imggal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.sixbox {
+    position: absolute;
+    top: 7%;
+    bottom: 7%;
+    width: 50%;
+}
+
+
+
+
+
+
+
