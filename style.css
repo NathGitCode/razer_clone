@@ -162,13 +162,13 @@ header a {
 
  footer {
 
-    background-color: rgb(24, 27, 27);
+    background-color: rgb(23, 24, 24);
 
  }
 
  .list {
     list-style-type: none;
-    padding: 2px;
+    padding: 10px;
  
  }
 
@@ -179,7 +179,7 @@ header a {
 
  .listtop {
     list-style-type: none;
-    padding: 2px;
+    padding: 10px;
 
  }
 
@@ -188,5 +188,29 @@ header a {
     color: white;
  }
 
+ .logo2 {
+    width: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+ }
 
+ .containerfoot{
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ h3 {
+    color: rgb(9, 235, 9);
+    text-transform: uppercase;
+    padding-left: 60px;
+ }
+
+ div p {
+    color: rgb(9, 235, 9);
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 12px 0 0 0;
+ }
 
