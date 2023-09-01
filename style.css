@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@500&display=swap');
 
 body {
-    max-width:100%;
+    /* max-width:100%; */
     margin: 0px;
     background-color: rgb(79, 82, 85);
     text-decoration: none;
@@ -49,8 +49,8 @@ nav a {
 header {
     text-align: center;
     color: white;
-    padding: 15px;
-    font-size: 13px;
+    padding: 13px;
+    font-size: 15px;
 }
 
 header a {
@@ -62,6 +62,7 @@ header a {
 
 .onehundred {
     width: 100%;
+    padding: 0px 0px 10px;
 }
 
 .psp {
@@ -79,7 +80,7 @@ header a {
 .header {
     text-decoration: none;
     color: white;
-    font-size: 52px;
+    font-size: 51px;
     text-transform: uppercase;
 }
 
@@ -113,30 +114,79 @@ header a {
 /* end of school */
 /* 6box */
 
-.imggal img {
-    width: calc(50% - 10px);
-    margin-right: 10px;
-    margin-top: 10px;
+
+.onehundredl {
+    width: calc(100% - 5px);
+    padding: 0px 5px 10px 0px;
 }
 
-.imggal {
+.container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    text-align: center;
-    position: relative;
+
 }
 
-.sixbox {
-    position: absolute;
-    top: 7%;
-    bottom: 7%;
-    width: 50%;
+.header2 {
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
 }
+ .subhead2 {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
 
+ .lmb2 {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+ }
+ 
+ #arrow2 {
+    font-size: 20px;
+    color: rgb(9, 235, 9);
+    margin-left: -50px;
+    text-decoration: none;
+ }
 
+ .onehundredr {
+    width: calc(100% - 5px);
+    padding: 0px 0px 10px 5px;
+ }
 
+/* footer */
 
+ footer {
+
+    background-color: rgb(24, 27, 27);
+
+ }
+
+ .list {
+    list-style-type: none;
+    padding: 2px;
+ 
+ }
+
+ .list a {
+    text-decoration: none;
+    color: gray;
+ }
+
+ .listtop {
+    list-style-type: none;
+    padding: 2px;
+
+ }
+
+ .listtop a {
+    text-decoration: none;
+    color: white;
+ }
 
 
 
